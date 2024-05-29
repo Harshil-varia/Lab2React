@@ -7,7 +7,7 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'Home', to: '/home', current: true },
+  { name: 'Home', to: '/', current: true },
   { name: 'About', to: '/about', current: false },
   { name: 'Contact', to: '/contact', current: false },
 ];
