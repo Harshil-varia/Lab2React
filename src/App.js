@@ -13,7 +13,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar setCount={setCount} count={count} />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About count={count}/>} />
         <Route path="/contact" element={<Contact count={count}/>} />
       </Routes>
