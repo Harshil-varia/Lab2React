@@ -1,6 +1,4 @@
 
-import { useEffect } from "react";
-
 const Home = () => {
 
   return (
